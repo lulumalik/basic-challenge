@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function isPalindrome(teks){
+  let split = teks.split("")
+  // console.log(split);
+  let reverse = split.reverse()
+  // console.log(reverse);
+  let hasil = reverse.join("")
+  // console.log(hasil);
+  //let checkTeks = true
+
+  if(teks === hasil){
+    checkTeks = "ini palindrome"
+    console.log(checkTeks);
+  } else {
+    checkTeks = "ini bukan palindrome"
+    console.log(checkTeks);
+  }
+}
+
+isPalindrome("makan")
+isPalindrome("malam")
+
+    
+    </script>
+</body>
+</html>
